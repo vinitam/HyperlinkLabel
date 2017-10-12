@@ -1,6 +1,0 @@
-use_frameworks!
-target 'HyperlinkLabel_Tests' do
-  pod 'HyperlinkLabel', :path => '../'
-  
-  
-end
