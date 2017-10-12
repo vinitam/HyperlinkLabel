@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HyperlinkLabel_Example' do
+  pod 'HyperlinkLabel', :path => '../'
+
+  target 'HyperlinkLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

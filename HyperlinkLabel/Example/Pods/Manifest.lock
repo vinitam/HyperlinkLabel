@@ -1,0 +1,16 @@
+PODS:
+  - HyperlinkLabel (0.1.0)
+
+DEPENDENCIES:
+  - HyperlinkLabel (from `../`)
+
+EXTERNAL SOURCES:
+  HyperlinkLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HyperlinkLabel: d940a3aafe9097246ed7cd9b8e0775e8e7cab48b
+
+PODFILE CHECKSUM: 7930f75ce5a8a76f263dd191807a63372072fcc2
+
+COCOAPODS: 1.3.1
