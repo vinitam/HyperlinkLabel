@@ -12,7 +12,6 @@
 		3F0CAD41B58D00C0303FE1909E3AD055 /* Pods-HyperlinkLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F69E5FD957DB6A49A464B11A000E28 /* Pods-HyperlinkLabel_Example-dummy.m */; };
 		679BDF7E5760427598F0A7761F300F8C /* HyperlinkLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F26BBE60A39B688CE283CC1836BD98 /* HyperlinkLabel-dummy.m */; };
 		798A8004693FE695A2A9B96BC5D132DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		98F02E1293CC205422819A5D9C003529 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406253684E8B00DD046A1AAEE5E4222 /* ReplaceMe.swift */; };
 		A03EFB607CB877F43D7B9AFDE41661FB /* Pods-HyperlinkLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F2DC008EBD2597BB5F193C0DA3B7B /* Pods-HyperlinkLabel_Tests-dummy.m */; };
 		AADF4CA33BEFD3A68A750233E5E17F1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C088C4319FBB52827C815EFCF17F3C30 /* Pods-HyperlinkLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C24CBC691A6749375B7D703652DCDF99 /* Pods-HyperlinkLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,30 +31,30 @@
 /* Begin PBXFileReference section */
 		00F26BBE60A39B688CE283CC1836BD98 /* HyperlinkLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HyperlinkLabel-dummy.m"; sourceTree = "<group>"; };
 		0560F945A67FAFBA4E184B2F23AAB8D1 /* Pods-HyperlinkLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperlinkLabel_Example-resources.sh"; sourceTree = "<group>"; };
-		0E25F91B65A8E6495666C9D0AD91ABBC /* Pods_HyperlinkLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HyperlinkLabel_Example.framework; path = "Pods-HyperlinkLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17F7547E109DE51BC6421921DF821312 /* Pods-HyperlinkLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HyperlinkLabel_Example.modulemap"; sourceTree = "<group>"; };
+		0E25F91B65A8E6495666C9D0AD91ABBC /* Pods_HyperlinkLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperlinkLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		159682B11F8F64CC003D0F9E /* HyperlinkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperlinkLabel.swift; sourceTree = "<group>"; };
+		17F7547E109DE51BC6421921DF821312 /* Pods-HyperlinkLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HyperlinkLabel_Example.modulemap"; sourceTree = "<group>"; };
 		196BA7CC4B00DC638CD980AFA3E3C193 /* Pods-HyperlinkLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperlinkLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		1E6DA5D7D0769682AA7AAD116F2051E0 /* Pods-HyperlinkLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperlinkLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		246A37AF10DAA932376C99A1B980D7EC /* HyperlinkLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HyperlinkLabel-umbrella.h"; sourceTree = "<group>"; };
-		4406253684E8B00DD046A1AAEE5E4222 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HyperlinkLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		4E9F2DC008EBD2597BB5F193C0DA3B7B /* Pods-HyperlinkLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperlinkLabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		5B1718F2506BA7730D4FE0C46B90449B /* Pods-HyperlinkLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HyperlinkLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		5B1718F2506BA7730D4FE0C46B90449B /* Pods-HyperlinkLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HyperlinkLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D5063DFE2657554C197C3D3B24332F7 /* Pods-HyperlinkLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperlinkLabel_Tests-resources.sh"; sourceTree = "<group>"; };
 		755A6E8F85278EA697D1827086175F1C /* Pods-HyperlinkLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperlinkLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BC2B542B05A052132DF3FF778078C80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CFB4771BBA3F04CF148E49F041F5E50 /* Pods_HyperlinkLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HyperlinkLabel_Tests.framework; path = "Pods-HyperlinkLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFB4771BBA3F04CF148E49F041F5E50 /* Pods_HyperlinkLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperlinkLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		912B1B60BD94CBB666AC165D0C157849 /* HyperlinkLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HyperlinkLabel.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9F69E5FD957DB6A49A464B11A000E28 /* Pods-HyperlinkLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperlinkLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		AC393A4A1A32CE2882B396708B9FBDBF /* Pods-HyperlinkLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperlinkLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD25022D06B421C380B686BC23EE6E29 /* Pods-HyperlinkLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperlinkLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AF8C2439293C7166BB04BEE679851C10 /* HyperlinkLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HyperlinkLabel.framework; path = HyperlinkLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8C2439293C7166BB04BEE679851C10 /* HyperlinkLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HyperlinkLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24CBC691A6749375B7D703652DCDF99 /* Pods-HyperlinkLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperlinkLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CDC6D75BE41ADEBFC52A35D076D1FDFD /* Pods-HyperlinkLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperlinkLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3B15F586D1179D031C3A0C30D6F980E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D663F0C3042AE3F633D24F6153767228 /* HyperlinkLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HyperlinkLabel-prefix.pch"; sourceTree = "<group>"; };
-		DB77B8DD7F3A9EADE68A50BABC217085 /* HyperlinkLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HyperlinkLabel.modulemap; sourceTree = "<group>"; };
+		DB77B8DD7F3A9EADE68A50BABC217085 /* HyperlinkLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HyperlinkLabel.modulemap; sourceTree = "<group>"; };
 		DCD6F550AB70F09B4048F0056F1BFF8F /* Pods-HyperlinkLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperlinkLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E2960D3A0B432DA9C9C01BAA2CD431DB /* Pods-HyperlinkLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperlinkLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E539AFEF5A42CE47A6AA39CFFD004126 /* Pods-HyperlinkLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperlinkLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +104,7 @@
 		24B72EAC8D55A21C3CEFC6B71CED83E4 /* HyperlinkLabel */ = {
 			isa = PBXGroup;
 			children = (
-				4406253684E8B00DD046A1AAEE5E4222 /* ReplaceMe.swift */,
+				159682B11F8F64CC003D0F9E /* HyperlinkLabel.swift */,
 				68EFF359E32936D3D9B76F7672ED11F1 /* Support Files */,
 			);
 			name = HyperlinkLabel;
@@ -296,6 +295,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					FBD3ADC0E0A594DD5CDCFABB2AC7A6FA = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -330,7 +334,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				679BDF7E5760427598F0A7761F300F8C /* HyperlinkLabel-dummy.m in Sources */,
-				98F02E1293CC205422819A5D9C003529 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +575,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 912B1B60BD94CBB666AC165D0C157849 /* HyperlinkLabel.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -638,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 912B1B60BD94CBB666AC165D0C157849 /* HyperlinkLabel.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
